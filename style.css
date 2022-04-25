@@ -1,0 +1,239 @@
+body{
+    border: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flexbox;
+    height: 12vh;
+    width: 100%;
+    background-image: url(https://www.myfreetextures.com/wp-content/uploads/2011/06/brushedsteel5.jpg)
+}
+h1{
+    display: inline;
+    position: relative;
+    width: 15vw;
+    height: 10vh;
+    text-align: left;
+}
+ul{
+    display: inline-flexbox;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr;
+    position: relative;
+    text-align: right;
+    margin: 0 12vw 3vh;
+}
+li {
+    display: inline-flex;
+    border-bottom: 4px solid black;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+a{
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+    text-decoration: none;
+}
+#name{
+    left: 2%;
+    border: 5px solid black;
+    padding: 5px;
+    background-image: url(https://cdn.wallpapersafari.com/54/57/VFmTa6.png);
+    color: gray;
+    top: 23px;
+}
+#subHeader{
+    display: block;
+    height: 140px;
+    width: 100%;
+    background-color: beige;
+}
+.quote{
+    width: 400px;
+    height: 60px;
+    padding: 0;
+    float: right;
+}
+blockquote{
+    padding: 0;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+#seinfeld{
+    text-align: right;
+    margin: 2px 6px 0 0;
+}
+#aboutMe{
+    height: 200px;
+    width: 90%;
+    margin: 10px auto 10px auto;
+}
+#col_one{
+    font-size: 3.4em;
+    font-weight: bold;
+    width: 20%;
+    border-right: 8px solid black;
+    text-align: right;
+    padding-right: 12px;
+}
+#col_two{
+    width: 55%;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 5px 5px 5px 10px;
+}
+#bruins{
+    display: table;
+    width: 90%;
+    margin: 3vw auto 3vw auto;
+    border-spacing: .5vw;
+}
+#work{
+    font-size: 3.4em;
+    width: 20.1%;
+    border-right: 8px solid black;
+    text-align: right;
+    vertical-align: text-top;
+    padding: 40px 12px 0 0;
+}
+#surfLink{
+    background-image: url(https://freepikpsd.com/file/2017/09/01-1.jpg);
+    background-size: 100% 100%;
+    height: 80vh;
+    width: 55%;
+    font-weight: lighter;
+    text-align: left;
+    vertical-align: bottom;
+    border: 5px solid lightblue;
+    padding: 0;
+}
+#surfLink:hover{
+    filter: brightness(80%);
+}
+#surf{
+    height: 15%;
+    width: 20%;
+    color: darkblue;
+    background-color: lightblue;
+    border: 0 solid lightblue;
+}
+#h2{
+    padding: 10px 0 0 22px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+#h2::first-line{
+    font-size: 25px;
+    font-weight: bold;
+}
+.btmbtn{
+    height: 20vh;
+    width: 27.5%;
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: bottom;
+}
+#LCPR{
+    width: calc(2em * 6);
+    color: darkblue;
+    background-color: lightblue;
+    border: 0 solid lightblue;
+}
+#ledWall{
+    background-image: url(https://www.stockvault.net/data/2016/11/20/216349/preview16.jpg);
+    background-size: 100%;
+    width: calc(2em * 5);
+    font-weight: lighter;
+    text-align: left;
+    vertical-align: center;
+    border: 5px solid lightblue;
+    padding: 0;
+}
+#ledWall:hover{
+    filter: brightness(200%);
+}
+#calc{
+    background-image: url(https://freepikpsd.com/file/2015/05/Apple-Device-Mockups-Vector-.Ai_.jpg);
+    background-size: 100%;
+    font-weight: lighter;
+    text-align: left;
+    vertical-align: center;
+    border: 5px solid lightblue;
+    padding: 0;
+}
+#calc:hover{
+    filter: brightness(60%);
+}
+#puzz{
+    background-image: url(https://picjumbo.com/wp-content/uploads/mixed-color-pencils-pastel-colors-free-stock-photos-2210x1473.jpg);
+    background-size: 25%;
+    font-weight: lighter;
+    text-align: left;
+    vertical-align: center;
+    border: 5px solid lightblue;
+    padding: 0;
+}
+#puzz:hover{
+    filter: brightness(115%);
+}
+#buddy{
+    background-image: url(https://pixy.org/src2/594/thumbs350/5940302.jpg);
+    background-size: 100%;
+    font-weight: lighter;
+    text-align: left;
+    vertical-align: center;
+    border: 5px solid lightblue;
+    padding: 0;
+}
+#buddy:hover{
+    filter: brightness(120%);
+}
+#Footy{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr;
+    height: 24vh;
+    width: 95vw;
+    padding: 1vw auto 1vw auto;
+    border-spacing: 1vw;
+    margin-bottom: 4vh;
+}
+#footer{
+    padding: 0 2vh 0 2vh;
+    width: 12vw;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-size: 1em;
+    align-items: flex-end;
+}
+#foot_col{
+    width: 63vw;
+}
+#contact_me{
+    width: 33vw;
+    font-size: 3.4em;
+    font-weight: bold;
+    border-right: 8px solid black;
+    text-align: right;
+    padding-right: 2vh;
+}
